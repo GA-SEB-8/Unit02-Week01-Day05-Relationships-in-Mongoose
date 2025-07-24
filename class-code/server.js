@@ -37,7 +37,8 @@ conntectToDB()
 
 
 // Routes go here
-
+app.use("/books",bookRoutes)
+app.use("/authors",authorRoutes)
 
 
 
